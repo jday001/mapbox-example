@@ -1,0 +1,5 @@
+.elasticbeanstalk/
+xcuserdata
+xcshareddata
+
+Pods/*
