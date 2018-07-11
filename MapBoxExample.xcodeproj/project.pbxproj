@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		202C687F9D79C52021A88C24 /* Pods_MapBoxExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6C3D2ADC4F64019604BAD6 /* Pods_MapBoxExample.framework */; };
-		65143DB31FDF85A200F422B9 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143DB21FDF85A200F422B9 /* CustomCalloutView.swift */; };
-		65143DB51FDF8A0F00F422B9 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143DB41FDF8A0F00F422B9 /* CustomPointAnnotation.swift */; };
-		65143DB91FDFB10900F422B9 /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65143DB81FDFB10900F422B9 /* CalloutView.xib */; };
 		658D366F20F679F000AE2BA0 /* MapViewController+Offline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D366B20F679EF00AE2BA0 /* MapViewController+Offline.swift */; };
 		658D367020F679F000AE2BA0 /* MapViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D366C20F679EF00AE2BA0 /* MapViewController+CoreData.swift */; };
 		658D367120F679F000AE2BA0 /* MapViewController+MGLMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D366D20F679F000AE2BA0 /* MapViewController+MGLMapViewDelegate.swift */; };
@@ -31,9 +28,6 @@
 
 /* Begin PBXFileReference section */
 		598DB5E59E9D0A2A788F3F0E /* Pods-MapBoxExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBoxExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample.release.xcconfig"; sourceTree = "<group>"; };
-		65143DB21FDF85A200F422B9 /* CustomCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
-		65143DB41FDF8A0F00F422B9 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
-		65143DB81FDFB10900F422B9 /* CalloutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
 		658D366B20F679EF00AE2BA0 /* MapViewController+Offline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController+Offline.swift"; sourceTree = "<group>"; };
 		658D366C20F679EF00AE2BA0 /* MapViewController+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController+CoreData.swift"; sourceTree = "<group>"; };
 		658D366D20F679F000AE2BA0 /* MapViewController+MGLMapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController+MGLMapViewDelegate.swift"; sourceTree = "<group>"; };
@@ -135,9 +129,6 @@
 				658D366820F6789200AE2BA0 /* controller */,
 				658D366920F678FF00AE2BA0 /* model */,
 				658D366A20F6790800AE2BA0 /* util */,
-				65143DB21FDF85A200F422B9 /* CustomCalloutView.swift */,
-				65143DB81FDFB10900F422B9 /* CalloutView.xib */,
-				65143DB41FDF8A0F00F422B9 /* CustomPointAnnotation.swift */,
 				65A9FBAD1FDCA1DD009DEBA1 /* Assets.xcassets */,
 				65A9FBAF1FDCA1DD009DEBA1 /* LaunchScreen.storyboard */,
 				65A9FBB21FDCA1DD009DEBA1 /* Info.plist */,
@@ -218,7 +209,6 @@
 			files = (
 				65A9FBB11FDCA1DD009DEBA1 /* LaunchScreen.storyboard in Resources */,
 				65A9FBAE1FDCA1DD009DEBA1 /* Assets.xcassets in Resources */,
-				65143DB91FDFB10900F422B9 /* CalloutView.xib in Resources */,
 				658D368520F67ACA00AE2BA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +281,6 @@
 				658D367020F679F000AE2BA0 /* MapViewController+CoreData.swift in Sources */,
 				658D367920F679F900AE2BA0 /* MapLocation.swift in Sources */,
 				658D367720F679F900AE2BA0 /* DataModel.xcdatamodeld in Sources */,
-				65143DB31FDF85A200F422B9 /* CustomCalloutView.swift in Sources */,
 				658D368320F67A0000AE2BA0 /* GoogleAPIManager.swift in Sources */,
 				658D366F20F679F000AE2BA0 /* MapViewController+Offline.swift in Sources */,
 				658D367120F679F000AE2BA0 /* MapViewController+MGLMapViewDelegate.swift in Sources */,
@@ -300,7 +289,6 @@
 				658D368120F67A0000AE2BA0 /* CoreDataManager.swift in Sources */,
 				658D367F20F67A0000AE2BA0 /* ElevationManager.swift in Sources */,
 				658D367820F679F900AE2BA0 /* Coordinate.swift in Sources */,
-				65143DB51FDF8A0F00F422B9 /* CustomPointAnnotation.swift in Sources */,
 				65A9FBA71FDCA1DC009DEBA1 /* AppDelegate.swift in Sources */,
 				658D367220F679F000AE2BA0 /* MapViewController.swift in Sources */,
 			);
